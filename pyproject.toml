@@ -1,0 +1,43 @@
+build-backend = "poetry.core.masonry.api"
+
+[build-system]
+requires = [
+    "wheel",
+    "setuptools",
+    "cython>=0.28.0",
+    "numpy<v1.20.0",
+    "scipy",
+    "poetry-core",
+]
+
+[tool.pysen]
+version = "0.10"
+
+[tool.pysen.lint]
+enable_black = true
+enable_flake8 = true
+enable_isort = true
+enable_mypy = false
+mypy_preset = "entry"
+line_length = 88
+py_version = "py38"
+
+[[tool.pysen.lint.mypy_targets]]
+paths = ["nnsvs", "tests"]
+
+[tool.pysen.lint.source]
+excludes = [
+    "nnsvs/usfgan/layers",
+    "nnsvs/usfgan/models",
+    "nnsvs/usfgan/utils"
+]
+
+[tool.poetry]
+name = "nnsvs"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.8.2"

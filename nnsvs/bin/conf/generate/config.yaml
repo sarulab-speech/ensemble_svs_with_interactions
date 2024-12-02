@@ -1,0 +1,16 @@
+defaults:
+  - override hydra/job_logging: colorlog
+  - override hydra/hydra_logging: colorlog
+  - _self_
+
+verbose: 100
+
+in_dir:
+out_dir:
+
+out_scaler_path:
+
+model:
+  checkpoint:
+  model_yaml:
+

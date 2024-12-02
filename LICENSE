@@ -1,7 +1,8 @@
 MIT License
 
-Copyright (c) 2024 sarulab-speech
+Copyright (c) 2020 Ryuichi Yamamoto
 
+This software includes modifications made by Hiroaki Hyodo to the original software licensed under the MIT License.
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
@@ -19,3 +20,8 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+---
+
+Modified by: Hiroaki Hyodo
+Modification Date: 30/11/2024

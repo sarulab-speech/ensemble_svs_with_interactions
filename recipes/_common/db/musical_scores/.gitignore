@@ -1,0 +1,5 @@
+**/NEUTRINO
+/scores_for_SVS
+**/*.musicxml
+**/*.lab
+**/*.log

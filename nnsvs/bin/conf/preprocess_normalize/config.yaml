@@ -1,0 +1,19 @@
+defaults:
+  - override hydra/job_logging: colorlog
+  - override hydra/hydra_logging: colorlog
+  - _self_
+
+verbose: 100
+
+in_dir:
+out_dir:
+
+scaler_path: path/to/meanvar.joblib
+inverse: false
+
+num_workers: 4
+
+# Workaround for out-liers in the training data
+# may need to adjust in 5 to 10.
+# mean-var normalized data is force-clipped to [-threshold, threshold]
+clipping_threshold: 10.0

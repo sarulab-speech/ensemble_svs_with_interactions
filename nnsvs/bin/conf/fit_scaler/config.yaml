@@ -1,0 +1,11 @@
+verbose: 100
+scaler:
+  _target_: sklearn.preprocessing.StandardScaler
+
+list_path: list.txt
+out_path: scaler.joblib
+
+in_rest_idx: 0
+
+# If specified, scaler will be loaded from this path and updated accordingly
+external_scaler:

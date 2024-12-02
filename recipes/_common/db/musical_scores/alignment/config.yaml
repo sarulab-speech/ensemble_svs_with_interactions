@@ -1,0 +1,27 @@
+song:
+  genres: "jazz neutral punk_rock bossa_nova popular reggae enka ballad edm soulfunk"
+  # genres: "ballad edm soulfunk"
+  parts: "lead_vocal soprano alto tenor bass vocal_percussion"
+  extension: "musicxml"
+
+path:
+  data:
+    xml_full: "../scores_for_SVS"
+    xml_parts: "./scores_parts"
+    label: "./labels"
+    synth_wav: "./syn_wav"
+    recorded_wav: "./audio_recordings"
+    align: "./aligned_label"
+    alignbysynctool: "./aligned_label_synctool"
+  python: "python3"
+  neutrino: "./NEUTRINO"
+
+neutrino:
+  dic: "./settings/dic_ver2"
+  voice: "./settings/voice/japanese.table"
+  n_thread: 3
+
+gomi:
+  genres: "x"
+  parts: "x"
+  extension: "musicxml"
