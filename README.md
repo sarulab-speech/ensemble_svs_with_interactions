@@ -4,6 +4,7 @@
 [![arXiv](https://img.shields.io/badge/arXiv-2409.09988-b31b1b.svg)](https://arxiv.org/abs/2409.09988)
 
 This repository is a DNN-based ensemble singing voice synthesis library, based on [DNN-based ensemble singing voice synthesis with interactions between singers]([text](https://arxiv.org/abs/2409.09988)). The implementation is based on [NNSVS]([text](https://github.com/nnsvs/nnsvs)) and has been modified to enable multi-track training.
+Audio samples are available [here](https://sarulab.sakura.ne.jp/hyodo/EnsembleSVS_Demo/index.html).
 
 ## Citation
 
